@@ -1,7 +1,7 @@
 body {font-family: Arial, Helvetica, sans-serif;
 background-color: rgb(178, 230, 230);}
-form {border: 3px solid #f1f1f1;}
-
+form {border: none;}
+/* 3px solid #f1f1f1; */
 input[type=text], input[type=password] {
   width: 100%;
   padding: 12px 20px;
@@ -60,6 +60,7 @@ span.psw {
   }
   .cancelbtn {
      width: 100%;
+    
   }
 }
 .containerH{
@@ -77,4 +78,25 @@ span.psw {
 }
 div{
 margin-top: 20px;
+}
+.button {
+  width: 200px;
+  padding: 15px 25px;
+  font-size: 24px;
+  text-align: center;
+  cursor: pointer;
+  outline: none;
+  color: #fff;
+  background-color: #04AA6D;
+  border: none;
+  border-radius: 15px;
+  box-shadow: 0 9px #999;
+}
+
+.button:hover {background-color: #3e8e41}
+
+.button:active {
+  background-color: #3e8e41;
+  box-shadow: 0 5px #666;
+  transform: translateY(4px);
 }
